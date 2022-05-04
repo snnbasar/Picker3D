@@ -1,6 +1,6 @@
 # Picker 3D
  Case Study.
- Made with 2019.4.30f1
+ Made with Unity 2019.4.30f1
  
 Notes:
 * It may takes some time Unity to load shaders on first load.
