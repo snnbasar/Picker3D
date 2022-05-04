@@ -52,12 +52,15 @@ public class GameManager : MonoBehaviour
     private void GetLastLevel()
     {
         int curLevel = GameManager.instance.GetSettingsData().playersLevel;
-        if (SceneManager.GetActiveScene().buildIndex != curLevel - 1 && curLevel <= NextLevelManager.maxScene)
+        int curLevelid = curLevel - 1;
+
+        int loadedSceneId = SceneManager.GetActiveScene().buildIndex;
+        if (loadedSceneId != curLevelid && loadedSceneId != NextLevelManager.maxScene)
         {
             if (curLevel > NextLevelManager.maxScene)
                 SceneManager.LoadScene(NextLevelManager.maxScene);
             else
-                SceneManager.LoadScene(curLevel - 1);
+                SceneManager.LoadScene(curLevelid);
         }
     }
 
