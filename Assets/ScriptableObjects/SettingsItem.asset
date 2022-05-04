@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2958789faac708e4f8f5a1f76dd3f3f8, type: 3}
+  m_Name: SettingsItem
+  m_EditorClassIdentifier: 
+  IsSwichingNextLevel: 0
+  xPositionOfPlayerOnNextLevel: 0.34755796
+  _playersLevel: 1
+  previousGround: {fileID: 2100000, guid: f6bd3cb2f89c2cf49b3c214d446008dc, type: 2}
+  previousBridge: {fileID: 2100000, guid: defe1f8bcac097c42a0a1aec65f2bd9b, type: 2}
+  previousRamp: {fileID: 2100000, guid: b6e1aaeac1dc0cf46a01e0a437b9f059, type: 2}
