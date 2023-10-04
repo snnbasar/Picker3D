@@ -3,7 +3,7 @@
  Made with Unity 2019.4.30f1
  
 Notes:
-* It may takes some time Unity to load shaders on first load.
+* It may take some time to Unity load shaders on first load.
 * Tested On Samsung Galaxy S7 Edge.
 * You can start playing on Unity by opening any scene on Scene folder.
 * There are 10 levels made by hand. After that it continues with infinity.
